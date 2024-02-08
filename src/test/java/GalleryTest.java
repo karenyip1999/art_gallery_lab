@@ -36,6 +36,13 @@ public class GalleryTest {
         assertThat(gallery.getName()).isEqualTo("Maren");
     }
 
+  /* @Test
+    public void getTillCountTest()
+    {
+        assertThat(gallery.getTillCount()).isEqualTo(806.72);
+    }
+    */
+
 
 
 
