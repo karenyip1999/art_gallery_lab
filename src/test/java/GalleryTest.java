@@ -12,7 +12,7 @@ public class GalleryTest {
     public void setUp()
     {
         //Gallery object
-        gallery = new Gallery("Kaya");
+        gallery = new Gallery("Kaya", 259.20);
         //Artist objects
         Artist davinci = new Artist ("daVinci");
         Artist gogh = new Artist ("Gogh");
@@ -35,15 +35,5 @@ public class GalleryTest {
         gallery.setName("Maren");
         assertThat(gallery.getName()).isEqualTo("Maren");
     }
-
-  /* @Test
-    public void getTillCountTest()
-    {
-        assertThat(gallery.getTillCount()).isEqualTo(806.72);
-    }
-    */
-
-
-
 
 }

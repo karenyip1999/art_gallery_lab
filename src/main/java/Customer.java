@@ -1,3 +1,4 @@
+//Final class to make
 public class Customer {
 
     private String name;
@@ -29,7 +30,11 @@ public class Customer {
         this.wallet = amount;
     }
 
-
+    //Void as it is a type of setter as changing amount
+    public void changeWallet(double amount)
+    {
+        this.wallet += amount;
+    }
 
 
 

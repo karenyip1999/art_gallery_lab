@@ -1,5 +1,7 @@
+//Start with writing this class as it is not reliant on other classes
 public class Artist {
 
+    //Instance variable - It is dynamic across different instances
     private String name;
 
     public Artist(String inputName)
